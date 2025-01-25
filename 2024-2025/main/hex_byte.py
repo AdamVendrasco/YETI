@@ -33,7 +33,7 @@ def extract_jpegs(fixed_data_bytes, output_folder):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    # Define JPEG start and end markers. THis is standard SOis and EOIs according to wiki
+    # Defines JPEG start and end markers. THis is standard SOis and EOIs according to wiki
     jpeg_start_marker = b'\xFF\xD8'
     jpeg_end_marker = b'\xFF\xD9'
 
